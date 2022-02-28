@@ -21,10 +21,10 @@ class CustomForm extends StatelessWidget {
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
                 Text('CONTACT ME',
-                    style: size.size == LayoutSize.desktop &&
+                    style: size.size == LayoutSize.desktop ||
                             size.orientation == Orientation.landscape
-                        ? AppStyles.titleText(16.5)
-                        : AppStyles.titleText(17)),
+                        ? AppStyles.titleText(17)
+                        : AppStyles.titleText(21)),
                 const Gap(20),
                 TextField(
                     decoration: InputDecoration(
@@ -56,8 +56,8 @@ class CustomForm extends StatelessWidget {
                       borderSide: BorderSide.none),
                 )),
                 const Gap(30),
-                size.size == LayoutSize.desktop &&
-                            size.orientation == Orientation.landscape
+                size.size == LayoutSize.desktop ||
+                        size.orientation == Orientation.landscape
                     ? WebButton(
                         onPressed: () {},
                       )

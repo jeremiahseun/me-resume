@@ -40,8 +40,8 @@ class _HomepageState extends State<Homepage> with TickerProviderStateMixin {
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
                         //* THIS IS THE HEADER OF THE WEB PAGE
-                        size.size == LayoutSize.desktop &&
-                                    size.orientation == Orientation.landscape ||
+                        size.size == LayoutSize.desktop ||
+                                size.orientation == Orientation.landscape ||
                                 Device.screenType == ScreenType.tablet
                             ? WebTop(
                                 animation: animation,
@@ -67,16 +67,15 @@ class _HomepageState extends State<Homepage> with TickerProviderStateMixin {
                               ),
 
                         //* THIS IS THE SPACING BETWEEN THE HEADER AND THE BODY OF THE WEB PAGE
-                        size.size == LayoutSize.desktop &&
-                                    size.orientation == Orientation.landscape ||
+                        size.size == LayoutSize.desktop ||
+                                size.orientation == Orientation.landscape ||
                                 Device.screenType == ScreenType.tablet
                             ? const Gap(200)
-                            : const Gap(100),
+                            : const Gap(60),
 
                         //* THIS IS THE BODY OF THE WEB PAGE
-                        size.size == LayoutSize.desktop &&
-                                    size.orientation == Orientation.landscape ||
-                                Device.screenType == ScreenType.tablet
+                        size.size == LayoutSize.desktop ||
+                                size.orientation == Orientation.landscape
                             ? Row(
                                 crossAxisAlignment: CrossAxisAlignment.start,
                                 children: const [
@@ -91,7 +90,7 @@ class _HomepageState extends State<Homepage> with TickerProviderStateMixin {
                             : const BodyResume(),
                         const Gap(10),
 
-                        size.size == LayoutSize.desktop &&
+                        size.size == LayoutSize.desktop ||
                                 size.orientation == Orientation.landscape
                             ? const SizedBox()
                             : Column(
@@ -113,8 +112,8 @@ class _HomepageState extends State<Homepage> with TickerProviderStateMixin {
                         Container(
                             height: 15, width: 70, color: Colors.deepPurple),
                         const Gap(40),
-                        size.size == LayoutSize.desktop &&
-                                    size.orientation == Orientation.landscape ||
+                        size.size == LayoutSize.desktop ||
+                                size.orientation == Orientation.landscape ||
                                 Device.screenType == ScreenType.tablet
                             ? Row(
                                 children: [
@@ -130,7 +129,7 @@ class _HomepageState extends State<Homepage> with TickerProviderStateMixin {
 
                         const Gap(80),
                         //* THIS IS THE BOTTOM OF THE WEB PAGE - IT IS RESPONSIVE FOR BOTH WEB AND PHONE
-                        const BottomSide()
+                        const BottomSide(),
                       ],
                     ),
                   ),
