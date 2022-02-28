@@ -1,7 +1,7 @@
 /// THIS IS THE BEGINNING OF THE PROJECT
 /// THIS IS WHERE THE MAGIC HAPPENS
-/// 
-/// AUTHOR: 
+///
+/// AUTHOR:
 /// Email: seunjeremiah@gmail.com
 /// Name: Jeremiah Oluwaseun ERINOLA
 /// GitHub: jeremiahseun

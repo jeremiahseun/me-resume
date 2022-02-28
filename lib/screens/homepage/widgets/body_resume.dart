@@ -49,10 +49,10 @@ class BodyResume extends StatelessWidget {
           const Gap(10),
           Text('Flutter Developer - HNG Internship'.toUpperCase(),
               style: GoogleFonts.ptSansNarrow(
-                      fontSize: 15.sp,
-                      fontWeight: FontWeight.w600,
-                      color: AppColors.subText,
-                    )),
+                fontSize: 15.sp,
+                fontWeight: FontWeight.w600,
+                color: AppColors.subText,
+              )),
           const Gap(5),
           Text(
             'August 2021 - October 2021',
@@ -88,10 +88,10 @@ class BodyResume extends StatelessWidget {
           const Gap(30),
           Text('Flutter Developer - Hotels.ng'.toUpperCase(),
               style: GoogleFonts.ptSansNarrow(
-                      fontSize: 15.sp,
-                      fontWeight: FontWeight.w600,
-                      color: AppColors.subText,
-                    )),
+                fontSize: 15.sp,
+                fontWeight: FontWeight.w600,
+                color: AppColors.subText,
+              )),
           const Gap(5),
           Text(
             'October 2021 - Present',

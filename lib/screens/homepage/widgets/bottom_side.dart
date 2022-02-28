@@ -38,45 +38,35 @@ class BottomSide extends StatelessWidget {
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
                   SvgPicture.asset('assets/icons/facebook.svg',
-                      height: sizing,
-                      width: sizing,
-                      color: Colors.deepPurple),
+                      height: sizing, width: sizing, color: Colors.deepPurple),
                   size.size == LayoutSize.desktop ||
                           size.orientation == Orientation.landscape ||
                           Device.screenType == ScreenType.tablet
                       ? const Gap(50)
                       : const Gap(20),
                   SvgPicture.asset('assets/icons/twitter.svg',
-                      height: sizing,
-                      width: sizing,
-                      color: Colors.deepPurple),
+                      height: sizing, width: sizing, color: Colors.deepPurple),
                   size.size == LayoutSize.desktop ||
                           size.orientation == Orientation.landscape ||
                           Device.screenType == ScreenType.tablet
                       ? const Gap(50)
                       : const Gap(20),
                   SvgPicture.asset('assets/icons/instagram.svg',
-                      height: sizing,
-                      width: sizing,
-                      color: Colors.deepPurple),
+                      height: sizing, width: sizing, color: Colors.deepPurple),
                   size.size == LayoutSize.desktop ||
                           size.orientation == Orientation.landscape ||
                           Device.screenType == ScreenType.tablet
                       ? const Gap(50)
                       : const Gap(20),
                   SvgPicture.asset('assets/icons/linkedin.svg',
-                      height: sizing,
-                      width: sizing,
-                      color: Colors.deepPurple),
+                      height: sizing, width: sizing, color: Colors.deepPurple),
                   size.size == LayoutSize.desktop ||
                           size.orientation == Orientation.landscape ||
                           Device.screenType == ScreenType.tablet
                       ? const Gap(50)
                       : const Gap(20),
                   SvgPicture.asset('assets/icons/github.svg',
-                      height: sizing,
-                      width: sizing,
-                      color: Colors.deepPurple),
+                      height: sizing, width: sizing, color: Colors.deepPurple),
                 ],
               ),
               const Gap(100),

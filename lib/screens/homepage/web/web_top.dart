@@ -7,7 +7,8 @@ import 'package:resume/utils/styles.dart';
 class WebTop extends StatelessWidget {
   final Animation<double> animation;
   final Function()? onTap;
-  const WebTop({Key? key, required this.onTap, required this.animation}) : super(key: key);
+  const WebTop({Key? key, required this.onTap, required this.animation})
+      : super(key: key);
 
   @override
   Widget build(BuildContext context) {

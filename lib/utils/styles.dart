@@ -8,11 +8,11 @@ class AppStyles {
         fontWeight: FontWeight.w900,
         color: const Color(0xff011f21),
       );
-  static TextStyle normalText({double? size}) =>GoogleFonts.ptSansNarrow(
-                        fontSize: size ?? 14.sp,
-                        fontWeight: FontWeight.w500,
-                        color: AppColors.black,
-                      );
+  static TextStyle normalText({double? size}) => GoogleFonts.ptSansNarrow(
+        fontSize: size ?? 14.sp,
+        fontWeight: FontWeight.w500,
+        color: AppColors.black,
+      );
   static TextStyle subText(double size) => GoogleFonts.playfairDisplay(
         fontSize: size.sp,
         fontWeight: FontWeight.w600,
