@@ -13,7 +13,6 @@ class BodyResume extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return ResponsiveLayoutBuilder(
-        defaultSize: LayoutSize.desktop,
         builder: (context, size) {
           return Column(
             crossAxisAlignment: CrossAxisAlignment.start,
@@ -22,7 +21,7 @@ class BodyResume extends StatelessWidget {
                   style: size.size == LayoutSize.desktop &&
                           size.orientation == Orientation.landscape
                       ? AppStyles.titleText(16.5)
-                      : AppStyles.titleText(21)),
+                      : AppStyles.titleText(17)),
               const Gap(10),
               Text(
                 'I am a mobile engineer with a passion for building apps that are user-friendly and intuitive. I have a strong background in web development and have worked with a variety of technologies, including Flutter. I am currently open to opportunities.',
@@ -34,7 +33,7 @@ class BodyResume extends StatelessWidget {
                         color: Colors.black,
                       )
                     : GoogleFonts.ptSansNarrow(
-                        fontSize: 17.5.sp,
+                        fontSize: 14.5.sp,
                         fontWeight: FontWeight.w600,
                         color: Colors.black,
                       ),
@@ -47,7 +46,7 @@ class BodyResume extends StatelessWidget {
                   style: size.size == LayoutSize.desktop &&
                           size.orientation == Orientation.landscape
                       ? AppStyles.titleText(16.5)
-                      : AppStyles.titleText(21)),
+                      : AppStyles.titleText(17)),
               const Gap(10),
               Text('Flutter Developer - HNG Internship'.toUpperCase(),
                   style: size.size == LayoutSize.desktop &&
@@ -58,7 +57,7 @@ class BodyResume extends StatelessWidget {
                           color: AppColors.subText,
                         )
                       : GoogleFonts.ptSansNarrow(
-                          fontSize: 16.5.sp,
+                          fontSize: 15.sp,
                           fontWeight: FontWeight.w600,
                           color: AppColors.subText,
                         )),
@@ -73,7 +72,7 @@ class BodyResume extends StatelessWidget {
                         color: Colors.black,
                       )
                     : GoogleFonts.ptSansNarrow(
-                        fontSize: 16.sp,
+                        fontSize: 14.5.sp,
                         fontWeight: FontWeight.w500,
                         color: AppColors.black,
                       ),
@@ -89,7 +88,7 @@ class BodyResume extends StatelessWidget {
                         color: Colors.black,
                       )
                     : GoogleFonts.ptSansNarrow(
-                        fontSize: 17.5.sp,
+                        fontSize: 14.5.sp,
                         fontWeight: FontWeight.w700,
                         color: AppColors.black,
                       ),
@@ -104,7 +103,7 @@ class BodyResume extends StatelessWidget {
                           color: AppColors.subText,
                         )
                       : GoogleFonts.ptSansNarrow(
-                          fontSize: 16.5.sp,
+                          fontSize: 15.sp,
                           fontWeight: FontWeight.w600,
                           color: AppColors.subText,
                         )),
@@ -119,7 +118,7 @@ class BodyResume extends StatelessWidget {
                         color: Colors.black,
                       )
                     : GoogleFonts.ptSansNarrow(
-                        fontSize: 16.sp,
+                        fontSize: 14.5.sp,
                         fontWeight: FontWeight.w500,
                         color: AppColors.black,
                       ),
@@ -135,7 +134,7 @@ class BodyResume extends StatelessWidget {
                         color: Colors.black,
                       )
                     : GoogleFonts.ptSansNarrow(
-                        fontSize: 17.5.sp,
+                        fontSize: 14.5.sp,
                         fontWeight: FontWeight.w700,
                         color: AppColors.black,
                       ),
@@ -148,7 +147,7 @@ class BodyResume extends StatelessWidget {
                   style: size.size == LayoutSize.desktop &&
                           size.orientation == Orientation.landscape
                       ? AppStyles.titleText(16.5)
-                      : AppStyles.titleText(21)),
+                      : AppStyles.titleText(17)),
               const Gap(20),
               Text('flutter'.toUpperCase(),
                   style: size.size == LayoutSize.desktop &&
@@ -159,7 +158,7 @@ class BodyResume extends StatelessWidget {
                           color: AppColors.subText,
                         )
                       : GoogleFonts.ptSansNarrow(
-                          fontSize: 17.5.sp,
+                          fontSize: 14.5.sp,
                           fontWeight: FontWeight.w600,
                           color: AppColors.subText,
                         )),
@@ -174,7 +173,7 @@ class BodyResume extends StatelessWidget {
                         color: AppColors.black,
                       )
                     : GoogleFonts.ptSansNarrow(
-                        fontSize: 17.sp,
+                        fontSize: 14.sp,
                         fontWeight: FontWeight.w500,
                         color: AppColors.black,
                       ),
@@ -189,7 +188,7 @@ class BodyResume extends StatelessWidget {
                           color: AppColors.subText,
                         )
                       : GoogleFonts.ptSansNarrow(
-                          fontSize: 17.5.sp,
+                          fontSize: 14.5.sp,
                           fontWeight: FontWeight.w600,
                           color: AppColors.subText,
                         )),
@@ -204,7 +203,7 @@ class BodyResume extends StatelessWidget {
                         color: AppColors.black,
                       )
                     : GoogleFonts.ptSansNarrow(
-                        fontSize: 17.sp,
+                        fontSize: 14.sp,
                         fontWeight: FontWeight.w500,
                         color: AppColors.black,
                       ),
@@ -219,7 +218,7 @@ class BodyResume extends StatelessWidget {
                           color: AppColors.subText,
                         )
                       : GoogleFonts.ptSansNarrow(
-                          fontSize: 17.5.sp,
+                          fontSize: 14.5.sp,
                           fontWeight: FontWeight.w600,
                           color: AppColors.subText,
                         )),
@@ -234,7 +233,7 @@ class BodyResume extends StatelessWidget {
                         color: AppColors.black,
                       )
                     : GoogleFonts.ptSansNarrow(
-                        fontSize: 17.sp,
+                        fontSize: 14.sp,
                         fontWeight: FontWeight.w500,
                         color: AppColors.black,
                       ),
@@ -249,7 +248,7 @@ class BodyResume extends StatelessWidget {
                           color: AppColors.subText,
                         )
                       : GoogleFonts.ptSansNarrow(
-                          fontSize: 17.5.sp,
+                          fontSize: 14.5.sp,
                           fontWeight: FontWeight.w600,
                           color: AppColors.subText,
                         )),
@@ -264,7 +263,7 @@ class BodyResume extends StatelessWidget {
                         color: AppColors.black,
                       )
                     : GoogleFonts.ptSansNarrow(
-                        fontSize: 17.sp,
+                        fontSize: 14.sp,
                         fontWeight: FontWeight.w500,
                         color: AppColors.black,
                       ),
@@ -279,7 +278,7 @@ class BodyResume extends StatelessWidget {
                           color: AppColors.subText,
                         )
                       : GoogleFonts.ptSansNarrow(
-                          fontSize: 17.5.sp,
+                          fontSize: 14.5.sp,
                           fontWeight: FontWeight.w600,
                           color: AppColors.subText,
                         )),
@@ -294,7 +293,7 @@ class BodyResume extends StatelessWidget {
                         color: AppColors.black,
                       )
                     : GoogleFonts.ptSansNarrow(
-                        fontSize: 17.sp,
+                        fontSize: 14.sp,
                         fontWeight: FontWeight.w500,
                         color: AppColors.black,
                       ),
@@ -309,7 +308,7 @@ class BodyResume extends StatelessWidget {
                           color: AppColors.subText,
                         )
                       : GoogleFonts.ptSansNarrow(
-                          fontSize: 17.5.sp,
+                          fontSize: 14.5.sp,
                           fontWeight: FontWeight.w600,
                           color: AppColors.subText,
                         )),
@@ -324,7 +323,7 @@ class BodyResume extends StatelessWidget {
                         color: AppColors.black,
                       )
                     : GoogleFonts.ptSansNarrow(
-                        fontSize: 17.sp,
+                        fontSize: 14.sp,
                         fontWeight: FontWeight.w500,
                         color: AppColors.black,
                       ),
@@ -338,7 +337,7 @@ class BodyResume extends StatelessWidget {
                   style: size.size == LayoutSize.desktop &&
                           size.orientation == Orientation.landscape
                       ? AppStyles.titleText(16.5)
-                      : AppStyles.titleText(21)),
+                      : AppStyles.titleText(17)),
               const Gap(10),
               Text('Bsc.ED in MATHEMATICS - UNIVERSITY OF IBADAN',
                   style: size.size == LayoutSize.desktop &&
@@ -349,7 +348,7 @@ class BodyResume extends StatelessWidget {
                           color: AppColors.subText,
                         )
                       : GoogleFonts.ptSansNarrow(
-                          fontSize: 17.5.sp,
+                          fontSize: 14.5.sp,
                           fontWeight: FontWeight.w600,
                           color: AppColors.subText,
                         )),
@@ -364,7 +363,7 @@ class BodyResume extends StatelessWidget {
                         color: Colors.black,
                       )
                     : GoogleFonts.ptSansNarrow(
-                        fontSize: 17.sp,
+                        fontSize: 14.sp,
                         fontWeight: FontWeight.w500,
                         color: AppColors.black,
                       ),

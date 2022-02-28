@@ -22,7 +22,7 @@ class CareerTraits extends StatelessWidget {
                             size.orientation == Orientation.landscape
                         ? AppStyles.subText(12.sp)
                             .copyWith(color: AppColors.subText)
-                        : AppStyles.subText(17.sp)
+                        : AppStyles.subText(11.5.sp)
                             .copyWith(color: AppColors.subText)),
             const Gap(10),
             RichText(
@@ -33,7 +33,7 @@ class CareerTraits extends StatelessWidget {
                       style: size.size == LayoutSize.desktop &&
                             size.orientation == Orientation.landscape
                         ? AppStyles.normalText()
-                        : AppStyles.normalText(size: 17.5.sp)
+                        : AppStyles.normalText(size: 14.5.sp)
                           .copyWith(fontWeight: FontWeight.bold)),
                   TextSpan(
                       text:
@@ -41,7 +41,7 @@ class CareerTraits extends StatelessWidget {
                       style: size.size == LayoutSize.desktop &&
                             size.orientation == Orientation.landscape
                         ? AppStyles.normalText()
-                        : AppStyles.normalText(size: 17.5.sp)),
+                        : AppStyles.normalText(size: 14.5.sp)),
                 ],
               ),
             ),
@@ -54,7 +54,7 @@ class CareerTraits extends StatelessWidget {
                       style: size.size == LayoutSize.desktop &&
                             size.orientation == Orientation.landscape
                         ? AppStyles.normalText()
-                        : AppStyles.normalText(size: 17.5.sp)
+                        : AppStyles.normalText(size: 14.5.sp)
                           .copyWith(fontWeight: FontWeight.bold)),
                   TextSpan(
                       text:
@@ -62,7 +62,7 @@ class CareerTraits extends StatelessWidget {
                       style: size.size == LayoutSize.desktop &&
                             size.orientation == Orientation.landscape
                         ? AppStyles.normalText()
-                        : AppStyles.normalText(size: 17.5.sp)),
+                        : AppStyles.normalText(size: 14.5.sp)),
                 ],
               ),
             ),
@@ -75,7 +75,7 @@ class CareerTraits extends StatelessWidget {
                       style: size.size == LayoutSize.desktop &&
                             size.orientation == Orientation.landscape
                         ? AppStyles.normalText()
-                        : AppStyles.normalText(size: 17.5.sp)
+                        : AppStyles.normalText(size: 14.5.sp)
                           .copyWith(fontWeight: FontWeight.bold)),
                   TextSpan(
                       text:
@@ -83,7 +83,7 @@ class CareerTraits extends StatelessWidget {
                       style: size.size == LayoutSize.desktop &&
                             size.orientation == Orientation.landscape
                         ? AppStyles.normalText()
-                        : AppStyles.normalText(size: 17.5.sp)),
+                        : AppStyles.normalText(size: 14.5.sp)),
                 ],
               ),
             ),
@@ -96,7 +96,7 @@ class CareerTraits extends StatelessWidget {
                       style: size.size == LayoutSize.desktop &&
                             size.orientation == Orientation.landscape
                         ? AppStyles.normalText()
-                        : AppStyles.normalText(size: 17.5.sp)
+                        : AppStyles.normalText(size: 14.5.sp)
                           .copyWith(fontWeight: FontWeight.bold)),
                   TextSpan(
                       text:
@@ -104,7 +104,7 @@ class CareerTraits extends StatelessWidget {
                       style: size.size == LayoutSize.desktop &&
                             size.orientation == Orientation.landscape
                         ? AppStyles.normalText()
-                        : AppStyles.normalText(size: 17.5.sp)),
+                        : AppStyles.normalText(size: 14.5.sp)),
                 ],
               ),
             ),

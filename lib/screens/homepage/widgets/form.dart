@@ -24,7 +24,7 @@ class CustomForm extends StatelessWidget {
                     style: size.size == LayoutSize.desktop &&
                             size.orientation == Orientation.landscape
                         ? AppStyles.titleText(16.5)
-                        : AppStyles.titleText(21)),
+                        : AppStyles.titleText(17)),
                 const Gap(20),
                 TextField(
                     decoration: InputDecoration(

@@ -16,7 +16,7 @@ class WebButton extends StatelessWidget {
       child: Text(
         'SEND',
         style: GoogleFonts.ptSansNarrow(
-          fontSize: 14.sp,
+          fontSize: 12.sp,
           fontWeight: FontWeight.w700,
           color: Colors.white,
         ),
