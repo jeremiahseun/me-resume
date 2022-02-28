@@ -1,0 +1,91 @@
+{
+   "checksum": "c2ec4145090d7f6e902f9e0be73d66d5",
+   "roots": {
+      "bookmark_bar": {
+         "children": [ {
+            "date_added": "13035992333584438",
+            "guid": "f969fa5e-47e8-475e-b10f-275a3bfe79ff",
+            "id": "7",
+            "name": "Suggested Sites",
+            "show_icon": false,
+            "source": "sync",
+            "type": "url",
+            "url": "https://ieonline.microsoft.com/#ieslice"
+         }, {
+            "date_added": "13195172586070390",
+            "guid": "602faee7-0aa8-4b1d-9684-74c14a8ac699",
+            "id": "8",
+            "name": "WASSCE for School Candidates",
+            "show_icon": false,
+            "source": "sync",
+            "type": "url",
+            "url": "https://www.waeconline.org.ng/register/Home"
+         }, {
+            "date_added": "13215531921433018",
+            "guid": "a5efcd0b-81f5-4fcb-bfdd-e234215dbde2",
+            "id": "9",
+            "name": "Download Android Studio and SDK tools  |  Android Developers",
+            "show_icon": false,
+            "source": "sync",
+            "type": "url",
+            "url": "https://developer.android.com/studio/"
+         }, {
+            "date_added": "13215532157087783",
+            "guid": "7063ebcd-b52e-488d-9986-82d99d8aaab5",
+            "id": "10",
+            "name": "Download GDevelop or try it online - create games without programming",
+            "show_icon": false,
+            "source": "sync",
+            "type": "url",
+            "url": "https://gdevelop-app.com/download/"
+         } ],
+         "date_added": "13290538972611112",
+         "date_modified": "13215532157087783",
+         "guid": "0bc5d13f-2cba-5d74-951f-3f233fe6c908",
+         "id": "1",
+         "name": "Favorites bar",
+         "source": "unknown",
+         "type": "folder"
+      },
+      "other": {
+         "children": [  ],
+         "date_added": "13290538972611119",
+         "date_modified": "0",
+         "guid": "82b081ec-3dd3-529c-8475-ab6c344590dd",
+         "id": "2",
+         "name": "Other favorites",
+         "source": "unknown",
+         "type": "folder"
+      },
+      "synced": {
+         "children": [ {
+            "date_added": "13267162679180651",
+            "guid": "8fb80909-034f-4c33-a148-b62d8ff16c5f",
+            "id": "5",
+            "name": "Fiverr Help and Education Center",
+            "show_icon": false,
+            "source": "sync",
+            "type": "url",
+            "url": "https://www.fiverr.com/support/articles/360016244597-Freelancing-Online-Successfully-Selling-on-Fiverr?segment=seller"
+         }, {
+            "date_added": "13267162922802021",
+            "guid": "546a8cfb-9ae4-4218-89fe-136100a45115",
+            "id": "6",
+            "name": "jerryseun | Fiverr",
+            "show_icon": false,
+            "source": "sync",
+            "type": "url",
+            "url": "https://www.fiverr.com/jerryseun?up_rollout=true"
+         } ],
+         "date_added": "13290538972611122",
+         "date_modified": "13267162922802021",
+         "guid": "4cf2e351-0e85-532b-bb37-df045d8f8d0f",
+         "id": "3",
+         "name": "Mobile favorites",
+         "source": "unknown",
+         "type": "folder"
+      }
+   },
+   "sync_metadata": "Ci4KDgiIgQISCDtJJUF/AQAAEgAgASoYN21tZEYvUGs0Vnh0SnNyODhrREJ2dz09EqgBCAoSowEKHDNTSnQ2anIzZHgwMy9sVkVrM0ZRMmVKUFd3cz0SJDJjMGY4OTllLWU2MzQtNDA3NC1iOTJlLTg1YzdjYTQ0ZjE1MxgAIAAoADDxm+DwwC449Ybg8MAuQPWG4PDALkocKzJHeGM4cjN6WWFnUjcwNUhOTkFVR2c3ZDlJPVofIh3aYnBuME5Xa3VKVVd2UUx1ZGxYdWsyVXEzeHVRPWUAAAAAEqgBCAkSowEKHFFRanNiT1E0NWVDUVZOTmpYM0VMNEtJMDJMYz0SJGRiODRjY2Y4LWE3ZWMtNDE5NS1hMzk4LTgzNmNiMjQ2ZjdjMhgAIAIoAjCWnpWJ9C849Ybg8MAuQIuYlYn0L0occXdhK3FQbnRHU09Jc2NEV0p1QWVTWHVFNFEwPVofIh21VlI0RVBxeVlNQTVsWXVPM2lNTVpZTEtZMDJFPWWj1awYEqcBCAcSogEKHDJJTXNuS3VGSUs2NTJsaHJRdTJtbG1xTWc5OD0SJGI3NTExMGQxLTFkYmYtNDJkMi04OGJhLWQzY2E3NzhhNjE4YhgAIAIoAjCWnpWJ9C841+KmrewvQIqYlYn0L0oceEJDbjlTVkRxdXFhNXpWYUlZTkNJL214aWdZPVoeIhxmNVBPd3BRa0tieU9SVWRlUHZmaFFYN0NqaXc9ZXsePaYSiQEIARKEAQoceXhKLzZmdmtlY3I3a3A1RVF6QjR0V0xwZGJFPRIkMDM5YTcxYTItYjgwZC01ZDM1LTlhZGYtMWYyNWRhNmYwYTM4GAAgACgAMOOA4PDALjin/9/wwC5Ap//f8MAuShxhUkNXTGdoRjliNUlucUtJRHZ1Si9qdlFrRmM9WgBlAAAAABKnAQgIEqIBChxKLy9BZXI1RVpyNnhscXJnOFUySUhRWWRKZnM9EiQ4N2MzMDM5My01OGM2LTQ4YzMtOGRjZS1kMzNlMTZhMzY4NmQYACAAKAAw8Jvg8MAuOPWG4PDALkD1huDwwC5KHDFKV3FIMlhNVE03OGVQUlBUeS9jaytaR0dCST1aHiIca2d0WlVJOExxUzhWbVJWa0ZOc044SE42ZGxzPWUAAAAAEokBCAIShAEKHFljU1RvbnZFU1B3cUNzNEwyY3JWaHY2OEw5OD0SJGNhZWRmNzRjLWI2NjYtNTczOS1iNTA3LTJhMzRkYzY1OTNmNRgAIAAoADDkgODwwC44p//f8MAuQKf/3/DALkocb1BWa2h3QlJiVjY1S0NXUjIrSU9OSFdvT3U4PVoAZQAAAAASqAEIBhKjAQocRzJLSmZra0p3U0cxY2NBTC90RG5USE1rSmpBPRIkNTQ2YThjZmItOWFlNC00MjE4LTg5ZmUtMTM2MTAwYTQ1MTE1GAAgACgAMKG8xsGmLzjKqcbBpi9AyqnGwaYvShwyZmd2eklMQ2c0cXJDaC9vdUlxbFYxYVg0em89Wh8iHadDMjJuSDdxMkc4Y0U4QkswWG55M3VScXEzQXM9ZQa9fDESpwEIBRKiAQocazFzY1EzZ1RKZXdLQkt1dFh2QWhZSUNTbjBnPRIkOGZiODA5MDktMDM0Zi00YzMzLWExNDgtYjYyZDhmZjE2YzVmGAAgACgAMKG8xsGmLzjKqcbBpi9AyqnGwaYvShxQVmlYakRFaHNuRDR6NmgwaXJiMUhKL3pqeFE9Wh4iHE82MG1EMmU3Y1NydGpLdmtQWGg3WjFiejF5VT1lBr18MRKJAQgDEoQBChxuamdEdTg4ZUNydlhwODZwRDdmSEdjcUZwODg9EiRhYzNmMjUyYi01NzcwLTUxMDctYmQ5Ny1mMWY4ODM1MDRhY2YYACAAKAAw6IDg8MAuOKf/3/DALkCn/9/wwC5KHHl6TkIwMWNuNTRBN2NSVTB1VCsvUGdtVHRVbz1aAGUAAAAAIJeclYn0LzAAOAA=",
+   "version": 1
+}
