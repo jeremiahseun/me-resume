@@ -1,3 +1,11 @@
+/// THIS IS THE BEGINNING OF THE PROJECT
+/// THIS IS WHERE THE MAGIC HAPPENS
+/// 
+/// AUTHOR: 
+/// Email: seunjeremiah@gmail.com
+/// Name: Jeremiah Oluwaseun ERINOLA
+/// GitHub: jeremiahseun
+
 import 'package:flutter/material.dart';
 import 'package:gap/gap.dart';
 import 'package:responsive_layout_builder/responsive_layout_builder.dart';
